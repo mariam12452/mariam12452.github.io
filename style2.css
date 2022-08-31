@@ -1,0 +1,32 @@
+body,
+html{
+    width:100%;
+    height: 100%;
+    font-family: 'Square Peg', cursive;
+    background: url("./image5.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow-x: hidden;
+}
+h1{
+    font-size: 300%;
+    color: aquamarine;
+}
+img{
+    width: 500px;
+    height: 400px;
+    transition:all 1s;
+    margin: 10px;
+    border: thick solid yellow;
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+.container{
+    position: relative;
+    left: 8%;
+    overflow: hidden;
+}
